@@ -1,0 +1,517 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #363636;
+    background-color: #F5F4FF;
+    background-image: url(../images/backgroundsquiggle.svg);
+    object-fit: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 100px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/*nav bar*/
+
+nav{
+    padding: 0px 200px;
+    position: relative;
+    height: 100px;
+    margin-right: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    /* margin-right: 0px; */
+    padding: 20px 0px 10px 0px;
+    overflow: hidden;
+    background-color: #F5F4FF;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+    float: right;
+}
+
+ul{
+    margin: 0px;
+}
+
+#logo{
+    font-size: 48px;
+    font-weight: 600;
+    float: left;
+    padding-top: 18px;
+    color: #363636 !important;
+    text-decoration: none !important;
+}
+
+.contact-button{
+    font-weight: 600;
+    text-decoration: none;    
+    background-color: #6f66be;
+    border-radius: 35px;
+    border: 3px solid #6f66be;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 16px 24px;
+    float: right;
+}
+
+
+.contact-button:hover{
+    color: #6f66be !important;
+    background-color: #F5F4FF;
+    border: 3px solid #6f66be;
+    text-decoration: none !important;
+}
+
+.navLinks{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 16px 24px;
+    float: right;
+}
+
+#mobileContact{
+    display: none;
+}
+
+.hamburger{
+    width:50px;
+    padding: 0px;
+    display: none;
+    float: right;
+    padding-top: 18px;
+}
+
+.fa-hamburger{
+    font-size: 50px;
+    color: #363636;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #363636;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #363636;
+}
+
+.contact-button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-button a:hover{
+    color: #6f66be !important;
+}
+
+
+/* Mobile nav menu */
+
+.active{
+    display: block;
+}
+
+
+/*hero*/
+.hero{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.hero1{
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+}
+
+.hero2{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+
+/*main body*/
+.content{
+    min-height: 400px;
+    width: 100vw;
+}
+
+#socialBtn{
+    box-shadow: 20px hotpink;
+}
+
+#socialBtn:hover {
+    color: greenyellow;
+}
+
+img{
+    max-width: 90%;
+    height: auto;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.02);
+}
+
+.bounce{
+    animation: WorkArrow .7s infinite;
+}
+
+
+@keyframes WorkArrow {
+    from {
+    transform: translateY(0px);
+  
+    }
+    50% {
+    transform: translateY(5px);
+    }
+    to {
+    transform: translateY(0px);
+    }
+  }
+
+.mainHeader{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#Title{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.downArrow{
+    width: 80px;
+    z-index: -100;
+    bottom: 0px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+.bodyText{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.CaseStudies{
+    width: 90%;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caseStudyButton{
+    background-color: #ffffff;
+    color: #363636;
+    border-radius: 35px;
+    border: none;
+    text-decoration: none;
+    padding: 16px 30px 16px 30px;
+    box-shadow: 0px 0px 10px 0px #9792c4;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.caseStudyButton:hover{
+    background-color: #6f66be;
+    color: #ffffff !important;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+a .caseStudyButtonFont:hover{
+    color: white;
+    padding: 16px 24px;
+}
+
+/*My Work Grid*/
+#workGrid{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+    "BBBSImg BBBSText"
+    "SJImg SJText";
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+
+#BBBSImg{
+    grid-area: BBBSImg;
+    text-align: center;
+}
+
+#BBBSText{
+    grid-area: BBBSText;
+    text-align: center;
+    margin-top: -50px
+}
+
+#SJImg{
+    grid-area: SJImg;
+    text-align: center
+;}
+
+#SJText{
+    grid-area: SJText;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+
+/*My Skills Flexbox*/
+#mySkills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px 2% 0px 2%;
+}
+
+.skillCard{
+    background-color: none;
+    width: 40%;
+    align-content: center;
+}
+
+.skillCard img{
+    margin-top: 20px;
+}
+
+.skillCard p{
+    font-size: 24px;
+    max-width: 700px;
+}
+
+/*footer*/
+
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color: #F5F4FF;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    color: #363636;
+    text-align: center;
+    
+}
+/*Responsivenes*/
+@media (min-width:750px) and (max-width:1022px) {
+
+    p{
+    display: inline-block;}
+    
+    nav ul{
+        top: 100%;
+        right: 0;
+        position: absolute;
+        list-style-type: none;
+        margin: 0;
+        padding: 20px 50px 10px 50px;
+        overflow: hidden;
+        background-color: #F5F4FF;
+        display: none;
+        max-width: 300px;
+    }
+
+    .navLinks{
+        float: none;
+        text-align: right;
+        padding: 20px 15px;
+    }
+    
+    nav ul li{
+        border-bottom: 1px #6f66be;
+    }
+
+    #contact-button{
+        display: none;
+    }
+
+    #mobileContact{
+        display: block;
+    }
+    
+    .hamburger{
+        margin: 0px;
+        display: block;
+    }
+
+    .content{
+        min-height: 400px;
+        width: 100vw;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .hero1{
+        font-size: 40px;
+        font-weight: 600;
+
+    }
+    
+    .hero2{
+        font-size: 28px;
+
+    }
+
+    h1{
+        font-size: 28px;
+    }
+    
+    h2{
+        font-size: 24px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+
+    .mainHeader{
+        font-size: 36px;
+        width: 80%;
+    }
+
+    .bodyText{
+        font-size: 16px;
+        width: 80%;
+    }
+    
+    .description{
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    #workGrid{
+        grid-template-areas: 
+        "BBBSImg"
+        "BBBSText"
+        "SJImg"
+        "SJText";
+        grid-template-columns: 1fr 0;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        grid-row-gap: 20px;
+    }
+
+    .caseStudyButton{
+        border-radius: 45px;
+        padding: 16px 30px 16px 30px;
+        font-size: 16px;
+    }
+
+
+    #SJText{
+        padding-bottom: 20px;
+    }
+    #BBBSText{
+        padding-bottom: 20px;
+    }
+
+
+    #mySkills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px 2% 0px 2%;
+        flex-flow: column wrap;
+    }
+    
+    .skillCard{
+        background-color: none;
+        width: 70%;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .skillCard img{
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    
+    .skillCard p{
+        font-size: 20px;
+        max-width: 700px;
+        margin-top: 50px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,11 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Sat Jan 16 2021 02:45:33 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5f813958840eee5ba6f79e9f" data-wf-site="5f813958840eee38dcf79e9e">
+<html data-wf-page="5fa227dddcf6ccce06e286f7" data-wf-site="5f813958840eee38dcf79e9e">
 <head>
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>BannerRant</title>
+  <meta content="BannerRant" property="og:title">
+  <meta content="BannerRant" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -16,7 +18,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
-<body class="body-3">
+<body class="body-4">
   <div class="contactpopup"><img src="images/X.svg" loading="lazy" data-w-id="7ad3f13a-8f97-d424-4bf8-2b1189c3c175" alt="" class="x">
     <div class="div-block-20">
       <h2 class="heading-2">Email me 😁</h2>
@@ -31,87 +33,45 @@
       </div>
     </div>
   </div>
-  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="homenav w-nav">
+  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="homenav csnav w-nav">
     <div class="navcontainer w-container">
-      <a href="index.html" aria-current="page" class="w-nav-brand w--current">
-        <div class="text-block logo">KR</div>
+      <a href="index.html" class="w-nav-brand">
+        <div class="text-block logo cslogo">KR</div>
       </a>
-      <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="#MyWork" class="navlink w-nav-link">Work</a>
-        <a href="#AboutMe" class="navlink w-nav-link">About</a>
-        <a href="https://drive.google.com/file/d/1q5YnLWBTV8xfDHlsyRKoJFnqUwWNuuKp/view?usp=sharing" target="_blank" class="navlink w-nav-link">Resumé</a>
-        <a href="#" data-w-id="7eda03d7-48d8-65bd-0f39-13e7572abc7c" class="contactbutton w-nav-link">Contact</a>
+      <nav role="navigation" class="nav-menu csnavsm w-nav-menu">
+        <a href="/Home#MyWork" class="navlink csnavlink w-nav-link">Work</a>
+        <a href="/Home#AboutMe" class="navlink csnavlink w-nav-link">About</a>
+        <a href="#https://drive.google.com/file/d/1q5YnLWBTV8xfDHlsyRKoJFnqUwWNuuKp/view?usp=sharing" target="_blank" class="navlink csnavlink w-nav-link">Resumé</a>
+        <a href="#" data-w-id="d0328610-caf7-1fd4-f5a3-310845883c1d" class="contactbutton bbbscontactbutton w-nav-link">Contact</a>
       </nav>
-      <div class="menu-button w-nav-button"><img src="images/hamburger-white.svg" loading="lazy" alt="" class="hamburger"></div>
+      <div class="menu-button w-nav-button"><img src="images/hamburger-solid.svg" loading="lazy" alt="" class="hamburger"></div>
     </div>
   </div>
-  <div class="hero">
+  <div class="section-4">
     <div class="cscontainer w-container">
-      <div class="_50-flexcenter"><img src="images/PlantMama.png" loading="lazy" sizes="(max-width: 479px) 76vw, (max-width: 767px) 75vw, 40vw" srcset="images/PlantMama.png 500w, images/PlantMama.png 725w" alt="" class="heropic"></div>
-      <div id="w-node-7814d0f948c9-a6f79e9f" class="herodiv">
-        <h1 class="heroh1">Hi! I&#x27;m Kiri ✌️</h1>
-        <div class="heroh2">I&#x27;m a Product Designer <br>based in the Bay Area.</div>
-        <div class="text-block-2">I started my career in the video game industry and recently received my certificate in UX/UI from UC Berkeley. I design like I play games: I start research by gathering lore and quest objectives, then craft my designs using what I&#x27;ve learned into a cohesive and engaging experience.</div>
+      <div class="flexcolumn">
+        <h6 class="rantpoph1">Banner Rant</h6><img src="images/Banner.png" loading="lazy" sizes="100vw" srcset="images/Banner-p-500.png 500w, images/Banner-p-800.png 800w, images/Banner-p-1080.png 1080w, images/Banner.png 1596w" alt="" class="image-16">
+        <p class="csparagraph justifyleft">Have you ever encountered a design that makes you completely rethink the way we interact with our information? Well, this banner was that design for me. I had quickly skimmed the highlighted words, but didn’t think it was important enough to prevent me from using the navigation bar, which is covered up, so closed the banner almost immediately. Why? Why would I do this? Our primary goal was to find how the organization was supporting their mentorships during COVID-19, so why did I close the only mention of that support without reading it?  Well, here is why:</p>
+        <ul role="list" class="cslist">
+          <li class="cslistitem"><strong>Color</strong>: the color of the banner follows the style guide, making it blend in with the rest of the site.  <br>- The banner does not stand out from other calls to donate across the site.<br>- The highlighted green words do not look like links, so nobody clicked them.</li>
+          <li class="cslistitem"><strong>Text</strong>:<br>- The message is too long and is not easily skimmed. Users will only read the highlighted green text to get a feel for what the message says.<br>- None of the text or highlighted words relate to anything regarding shelter-in-place, quarantine, or COVID-19. The only reason we know this is related is because of “connecting Bigs and Littles virtually.”<br>- The highlighted words make users think it’s another ad to donate.</li>
+          <li class="cslistitem"><strong>Inconvenient location</strong>: It covers up the main navigation when open, preventing users from seeing their menu options.</li>
+          <li class="cslistitem"><strong>Once you hit X, it’s gone: </strong>there is no way to get the banner to reappear on the page once you exit. You must either refresh the page or go to another to see it again.</li>
+        </ul>
+        <h1 class="popupthxh1">Thank you for coming to my TED Talk</h1>
+        <a href="bbbscasestudy.html" class="bbbsbtn w-button">Go back to case study</a>
       </div>
     </div>
   </div>
-  <div id="MyWork" class="hometitlebreak">
-    <div class="titlebreak">
-      <h1 class="heading">MY WORK</h1><img src="images/DownArrows.png" loading="lazy" width="80" data-w-id="2f4206df-62da-dbde-c594-f51701eb56cd" alt="" class="image bouncearrow">
-    </div>
-  </div>
-  <div class="homemywork">
-    <div class="w-container">
-      <div class="_100-width flexrow paddingtb20 hidden">
-        <div class="_50"><img src="images/VoteBetchPlaceholder.png" loading="lazy" sizes="100vw" srcset="images/VoteBetchPlaceholder-p-500.png 500w, images/VoteBetchPlaceholder.png 608w" alt=""></div>
-        <div class="_50">
-          <div class="homecstext">
-            <h1 class="homecsh1">Vote Betch!</h1>
-            <p class="aboutmetext">A sassy guide to help you understand the people and issues on your election ballot.</p>
-            <a href="#" class="homecsbutton w-button">View Case Study</a>
-          </div>
-        </div>
-      </div>
-      <div class="_100-width flexrow paddingtb20 reverse alignstretch">
-        <div class="_50 ginkoback">
-          <div class="homecstext">
-            <h1 class="homecsh1">Big Brothers Big Sisters of the Bay Area</h1>
-            <p class="aboutmetext">In this 3 week sprint we redesigned the main processes of the Bay area chapter of BBBS.</p>
-            <a href="bbbscasestudy.html" class="homecsbutton w-button">View Case Study</a>
-          </div>
-        </div>
-        <div class="_50"><img src="images/BBBSMockupsGreen.png" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 767px) 601px, (max-width: 770px) 78vw, (max-width: 991px) 45vw, 470px" srcset="images/BBBSMockupsGreen.png 500w, images/BBBSMockupsGreen.png 601w" alt="" class="image-67"></div>
-      </div>
-      <div class="_100-width flexrow paddingtb20">
-        <div class="_50"><img src="images/SJMockupsGreen.png" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 767px) 81vw, (max-width: 991px) 45vw, 470px" srcset="images/SJMockupsGreen.png 500w, images/SJMockupsGreen.png 638w" alt="" class="image-66"></div>
-        <div class="_50 berryback">
-          <div class="homecstext">
-            <h1 class="homecsh1">San José City Site Redesign</h1>
-            <p class="aboutmetext">In this 4 week redesign we tackled a cluttered architecture and muddy color palette.</p>
-            <a href="sjcasestudy.html" class="homecsbutton w-button">View Case Study</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="AboutMe" class="hometitlebreak">
-    <div class="titlebreak w-container">
-      <h1 class="heading">THIS IS ME</h1><img src="images/DownArrows.png" loading="lazy" width="80" data-w-id="4f8ca36a-d71c-dea0-b10a-3d11df2357dd" alt="" class="bouncearrow">
-    </div>
-  </div>
-  <div class="aboutme">
-    <div class="amcontainer w-container">
-      <div class="_50"><img src="images/Dead.png" loading="lazy" sizes="(max-width: 479px) 77vw, (max-width: 767px) 64vw, (max-width: 991px) 43vw, 460px" srcset="images/Dead.png 500w, images/Dead.png 800w, images/Dead.png 988w" alt="" class="mepic"></div>
-      <div class="_50 marginl20 leavesback">
-        <p class="aboutmetext">I am a product designer that loves solving a good puzzle!  I am a creative, empathetic, and curious person who got my start as a Customer Support Lead in the video game industry.  My experiences have given me an empathetic view of user facing troubles within the virtual environment and a love for data-driven research.  I have extensive experience communicating with different departments from back-end developers to community managers and spent 6 years fighting for our users.  I am a gamer at heart and love interactive design and creating engaging experiences.<br><br><strong>Skills: </strong>UX/UI Design, UX Research, Prototyping, HTML/CSS, illustration<br><br><strong>Tools: </strong>Figma, Adobe XD, Adobe Creative Cloud, Google Suite, Atlassian Products</p>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="socialsvg homesocialsvg w-embed"><svg width="50" height="50" viewbox="0 0 297 297" xmlns="http://www.w3.org/2000/svg">
+  <div class="footer csfooter">
+    <div class="socialsvg w-embed"><svg width="50px" height="50px" viewbox="0 0 297 297" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M148.5 297C230.514 297 297 230.514 297 148.5C297 66.4857 230.514 0 148.5 0C66.4857 0 0 66.4857 0 148.5C0 230.514 66.4857 297 148.5 297ZM61 148.5C61 100.174 100.174 61 148.5 61C196.826 61 236 100.174 236 148.5C236 196.826 196.826 236 148.5 236C100.174 236 61 196.826 61 148.5ZM198.174 92.5438C184.961 80.81 167.562 73.6788 148.5 73.6788H148.504C142.565 73.6734 136.647 74.3739 130.873 75.7656C141.196 89.7504 150.573 104.41 158.939 119.647C173.717 113.876 188.466 105.349 198.174 92.5438ZM121.572 88.0691C119.948 85.6559 118.312 83.2262 116.667 80.7663V80.7706C95.6763 90.6538 80.0181 110.009 75.2144 133.319C98.0037 133.262 122.674 129.867 144.506 124.21C137.329 111.475 129.586 99.9735 121.572 88.0691ZM223.321 148.006C223.232 130.934 217.285 114.41 206.473 101.197V101.193C195.89 114.331 179.737 124.761 164.631 130.856C165.402 132.551 166.184 134.205 166.958 135.842C168.481 139.061 169.971 142.211 171.276 145.468C188.802 143.701 206.014 144.593 223.321 148.006ZM153.564 141.928C152.531 139.832 151.52 137.779 150.582 135.786C125.426 142.922 99.8106 146.186 73.7137 146.308C73.1223 165.562 80.005 184.297 92.92 198.589C106.373 173.416 132.295 159.057 156.664 148.312C155.645 146.155 154.594 144.021 153.564 141.928ZM222.389 160.343C211.856 157.586 201.012 156.189 190.124 156.187L190.119 156.183C185.272 156.183 180.431 156.534 175.634 157.232C182.367 174.765 186.191 192.154 190.185 210.318L190.246 210.599C198.765 204.875 206.014 197.459 211.544 188.813C217.073 180.168 220.765 170.477 222.389 160.343ZM177.729 217.402C174.098 198.2 168.686 178.469 161.791 160.649L161.787 160.654C137.125 168.962 116.138 185.596 102.589 207.576C115.706 217.805 131.87 223.349 148.504 223.326C158.546 223.339 168.486 221.324 177.729 217.402Z"></path>
+      </svg></div>
+    <div class="socialsvg w-embed"><svg width="50" height="50" viewbox="0 0 297 297" xmlns="http://www.w3.org/2000/svg">
         <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M148.5 297C230.514 297 297 230.514 297 148.5C297 66.4857 230.514 0 148.5 0C66.4857 0 0 66.4857 0 148.5C0 230.514 66.4857 297 148.5 297ZM119.903 119.895C127.307 112.491 137.35 108.331 147.821 108.331C158.292 108.331 168.335 112.491 175.739 119.895C183.143 127.299 187.303 137.342 187.303 147.813C187.303 158.284 183.143 168.326 175.739 175.731C168.335 183.135 158.292 187.295 147.821 187.295C137.35 187.295 127.307 183.135 119.903 175.731C112.499 168.326 108.339 158.284 108.339 147.813C108.339 137.342 112.499 127.299 119.903 119.895ZM129.684 165.941C134.494 170.752 141.018 173.454 147.821 173.454C154.624 173.454 161.148 170.752 165.958 165.941C170.768 161.131 173.47 154.607 173.47 147.804C173.47 141.002 170.768 134.478 165.958 129.667C161.148 124.857 154.624 122.155 147.821 122.155C141.018 122.155 134.494 124.857 129.684 129.667C124.874 134.478 122.171 141.002 122.171 147.804C122.171 154.607 124.874 161.131 129.684 165.941ZM188.866 116.084C193.949 116.084 198.07 111.963 198.07 106.879C198.07 101.796 193.949 97.6746 188.866 97.6746C183.782 97.6746 179.661 101.796 179.661 106.879C179.661 111.963 183.782 116.084 188.866 116.084ZM211.819 83.9107C215.691 87.7805 218.711 92.416 220.688 97.5205C222.967 103.576 224.183 109.98 224.283 116.45C224.761 124.622 224.761 127.269 224.761 148.128C224.761 168.988 224.65 171.592 224.283 179.806C224.155 186.193 222.951 192.494 220.705 198.471C218.726 203.575 215.704 208.21 211.833 212.081C207.963 215.952 203.327 218.973 198.223 220.953C192.248 223.191 185.937 224.401 179.558 224.53C171.404 225 168.731 225 147.88 225C127.029 225 124.425 224.889 116.203 224.53C109.811 224.32 103.501 223.021 97.5461 220.688C92.4407 218.712 87.8035 215.693 83.931 211.823C80.0584 207.954 77.0357 203.319 75.0558 198.215C72.8102 192.229 71.6062 185.928 71.4782 179.541C71 171.37 71 168.714 71 147.863C71 127.004 71.111 124.4 71.4782 116.186C71.6029 109.806 72.8128 103.494 75.0558 97.5205C77.0301 92.4147 80.05 87.778 83.9216 83.9079C87.7932 80.0377 92.431 77.0196 97.5376 75.0472C103.504 72.7982 109.811 71.5854 116.186 71.4611C124.34 71 127.012 71 147.863 71C168.714 71 171.319 71.1025 179.541 71.4611C185.921 71.5921 192.232 72.8047 198.206 75.0472C203.311 77.0219 207.948 80.0408 211.819 83.9107ZM207.633 193.322C209.335 188.705 210.233 183.83 210.288 178.909V178.918H210.382C210.749 170.755 210.749 168.518 210.749 147.721V147.718C210.749 126.91 210.655 124.63 210.288 116.51C210.209 111.645 209.311 106.827 207.633 102.259C206.35 98.9385 204.386 95.9226 201.869 93.4052C199.352 90.8878 196.336 88.9246 193.015 87.6415C188.45 85.9429 183.626 85.0446 178.756 84.986C170.499 84.5164 168.364 84.5164 147.556 84.5164C126.748 84.5164 124.468 84.6189 116.348 84.986C111.481 85.054 106.662 85.9521 102.097 87.6415C95.3603 90.2201 90.0237 95.5225 87.4195 102.259C85.7174 106.874 84.8192 111.746 84.764 116.664C84.3115 124.938 84.3115 127.064 84.3115 147.872C84.3115 168.672 84.3969 170.96 84.764 179.072C84.8435 183.937 85.7412 188.755 87.4195 193.322C88.7074 196.649 90.6793 199.668 93.2076 202.185C95.736 204.701 98.7645 206.659 102.097 207.932C106.659 209.629 111.48 210.527 116.348 210.587C124.613 211.057 126.739 211.057 147.556 211.057C168.356 211.057 170.644 210.963 178.756 210.587C183.626 210.524 188.449 209.626 193.015 207.932C196.336 206.651 199.352 204.69 201.87 202.174C204.387 199.658 206.35 196.643 207.633 193.322Z"></path>
       </svg></div>
-    <div class="socialsvg homesocialsvg marginl60 w-embed"><svg width="50" height="50" viewbox="0 0 297 297" xmlns="http://www.w3.org/2000/svg">
+    <div class="w-embed"></div>
+    <div class="socialsvg w-embed"><svg width="50" height="50" viewbox="0 0 297 297" xmlns="http://www.w3.org/2000/svg">
         <path fill="currentColor" d="M148.5 0C66.4847 0 0 66.4847 0 148.5C0 230.515 66.4847 297 148.5 297C230.515 297 297 230.515 297 148.5C297 66.4847 230.515 0 148.5 0ZM112.148 210.05H82.0772V113.278H112.148V210.05ZM96.9272 101.398C87.4294 101.398 81.2883 94.6687 81.2883 86.3466C81.2883 77.8542 87.615 71.3264 97.3139 71.3264C107.013 71.3264 112.953 77.8542 113.138 86.3466C113.138 94.6687 107.013 101.398 96.9272 101.398ZM221.977 210.05H191.905V156.42C191.905 143.937 187.543 135.46 176.669 135.46C168.362 135.46 163.427 141.199 161.246 146.721C160.442 148.686 160.241 151.47 160.241 154.239V210.035H130.154V144.138C130.154 132.057 129.767 121.956 129.365 113.262H155.492L156.869 126.705H157.472C161.432 120.393 171.131 111.081 187.357 111.081C207.142 111.081 221.977 124.338 221.977 152.831V210.05V210.05Z"></path>
       </svg></div>
   </div>
